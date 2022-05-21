@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="txtVisor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="352.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.softgraf.control.ControleApp">
+   <children>
+      <TextField layoutX="13.0" layoutY="10.0" prefHeight="51.0" prefWidth="220.0" />
+      <Button fx:id="btnBack" layoutX="12.0" layoutY="84.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="Back" />
+      <Button fx:id="btnClear" layoutX="131.0" layoutY="84.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="C" />
+      <Button fx:id="btnDiv" layoutX="193.0" layoutY="84.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="/" />
+      <Button fx:id="btnSete" layoutX="14.0" layoutY="147.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="7" />
+      <Button fx:id="btnOito" layoutX="72.0" layoutY="147.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="8" />
+      <Button fx:id="btnNove" layoutX="131.0" layoutY="147.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="9" />
+      <Button fx:id="btnQuatro" layoutX="14.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="4" />
+      <Button fx:id="btnCinco" layoutX="74.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="5" />
+      <Button fx:id="btnSeis" layoutX="131.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="6" />
+      <Button fx:id="btnUm" layoutX="14.0" layoutY="256.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="1" />
+      <Button fx:id="btnDois" layoutX="74.0" layoutY="256.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="2" />
+      <Button fx:id="btnTres" layoutX="131.0" layoutY="256.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="3" />
+      <Button fx:id="btnZero" layoutX="14.0" layoutY="308.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="0" />
+      <Button fx:id="btnMenos" layoutX="193.0" layoutY="200.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="-" />
+      <Button fx:id="btnMult" layoutX="193.0" layoutY="147.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="*" />
+      <Button fx:id="btnVirgula" layoutX="72.0" layoutY="308.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="," />
+      <Button fx:id="btnIgual" layoutX="131.0" layoutY="308.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" text="=" />
+      <Button fx:id="btnMais" layoutX="193.0" layoutY="256.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="+" />
+   </children>
+</AnchorPane>
