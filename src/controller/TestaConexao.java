@@ -1,5 +1,7 @@
 package controller;
 
+import java.util.List;
+
 import dao.AlunoDao;
 import model.Aluno;
 import model.Conexao;
@@ -16,13 +18,28 @@ public class TestaConexao {
 		if (Conexao.conectar()) {
 			
 			AlunoDao dao = new AlunoDao(Conexao.getConexao());
+			/*
 			if (dao.inserir(aluno))
 				System.out.println("Dados salvos");
 			else
 				System.out.println("Erro ao salvar");
+			*/
+			/*
 			
+			List<Aluno> lista = dao.listar();
+			System.out.println("Quantidade de alunos listados: " + lista.size());
 			
+			// para cada aluno da lista
+			for (Aluno a : lista) {
+				System.out.println(a);
+			}
+			 */
 			
+			boolean apagou = dao.apagar(33);
+			if (apagou)
+				System.out.println("Apagou id 2");
+			else
+				System.out.println("Erro: não apagou");
 			
 			Conexao.fecharConexao();
 			

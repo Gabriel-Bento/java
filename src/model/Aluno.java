@@ -1,16 +1,31 @@
 package model;
 
-// classe POJO
+// classe POJO = Pure Old Java Object
 public class Aluno {
 
 	private Long id;
 	private String nome;
 	private String cpf;
 	private String fone;
+	
+	// construtor padrão (sem parâmetros)
+	public Aluno() {
+		
+	}
+	
+	// construtor com 3 parâmetros
+	public Aluno(String nome, String cpf, String fone) {
+		super();
+		this.nome = nome;
+		this.cpf = cpf;
+		this.fone = fone;
+	}
+	
 
 	public Long getId() {
 		return id;
 	}
+
 
 	public void setId(Long id) {
 		this.id = id;
@@ -38,6 +53,10 @@ public class Aluno {
 
 	public void setFone(String fone) {
 		this.fone = fone;
+	}
+	
+	public String toString() {
+		return String.format("ID: %-5d Nome: %-20s CPF: %-15s Fone: %-15s", id, nome, cpf, fone);
 	}
 
 }

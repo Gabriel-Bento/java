@@ -9,7 +9,7 @@ public interface Dao<T> {
 
 	boolean inserir(T tipo);
 
-	boolean atualizar();
+	boolean atualizar(T tipo);
 
 	T buscar(long id);
 
