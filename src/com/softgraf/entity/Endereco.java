@@ -60,5 +60,10 @@ public class Endereco {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+	
+	@Override
+	public String toString() {
+		return String.format("ID: %-5d Rua: %s", id, rua);
 
+}
 }
